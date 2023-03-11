@@ -1,0 +1,65 @@
+.arrow {
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.left-arrow {
+    left: 20px;
+}
+
+.right-arrow {
+    right: 20px;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+ul {
+    height: 130px;
+    width: 390px;
+    margin: 0px auto;
+    list-style: none;
+    font-size: 0;
+    position: relative;
+    white-space: nowrap;
+    background-color: #c2c2c2;
+    border-radius: 20px;
+    border: 1px solid #989898;
+    padding: 0 50px;
+}
+
+.outer-cont {
+    overflow: hidden;
+}
+
+.inner-cont {
+    position: relative;
+    transition: all 0.3s linear 0s;
+    left: 0px;
+}
+
+ul img {
+    width: 130px;
+    height: 130px;
+    display: block; /* убираем пустое место вокруг картинок */
+}
+
+ul li {
+    display: inline-block; /* убираем пустое место между элементами списка */
+}
